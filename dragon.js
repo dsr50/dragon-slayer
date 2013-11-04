@@ -5,24 +5,24 @@ switch(user) {
         var smart = prompt("Are you smart, mighty knight?").toLowerCase();
         var strong = prompt("Are you strong, courageous knight?").toLowerCase();
             if(smart === 'yes' || strong == 'yes'){
-            console.log("You are more than enough to slay this ugly demon! Choose you attack method!");
+            alert("You are more than enough to slay this ugly demon! Choose you attack method!");
             }
             else {
-                console.log("You're neither, maybe you should've stayed home today then.");
+                alert("You're neither, maybe you should've stayed home today then.");
             }
         var attack1 = prompt("Great! You chose to fight the mighty dragon! How do you plan to attack the dragon? Cut off it's HEAD? Slay it with your mighty FIST? or SHOOT him?").toLowerCase();
         if(attack1 === 'head'){
-            console.log("You swiped the demons head off with one swing.WOW! Pure show of amazement and talent! You defeated the mighty dragon!");
+            alert("You swiped the demons head off with one swing.WOW! Pure show of amazement and talent! You defeated the mighty dragon!");
         }
         else if(attack1 === 'fist') {
-            console.log("You courageous person you; You couldn't choose to use the swor...Wait...You actually killed that dragon with you bare hands...Can we be friends? Or at least not enemies...");
+            alert("You courageous person you; You couldn't choose to use the swor...Wait...You actually killed that dragon with you bare hands...Can we be friends? Or at least not enemies...");
         }
         else if(attack1 === 'shoot'){
             var gun = prompt("Choose you type of gun soldier!(Gatling or Scar)").toLowerCase();
             var gatling = true;
             var scar = true;
             if (gun === 'gatling' || gun === 'scar'){
-                console.log("Guns have not yet been invinted you cheapskate. You could've at least used a sword but I guess you like the easy way out.");
+                alert("Guns have not yet been invinted you cheapskate. You could've at least used a sword but I guess you like the easy way out.");
             }
         }
         else {
@@ -30,15 +30,15 @@ switch(user) {
         }
         break;
     case 'run':
-        console.log("Wow. What a coward. You got away safely and you better be happy that you did because I wish that the dragon would've scooped you up and swallowed you whole. Maybe next time...");
+        alert("Wow. What a coward. You got away safely and you better be happy that you did because I wish that the dragon would've scooped you up and swallowed you whole. Maybe next time...");
         break;
     case 'talk':
         var talk = prompt("What do you want to say to the dragon?").toLowerCase;
             while(talk){
-                console.log("What did you think talking to a dragon would do? Maybe you should've brought some coffee and chocolate too. I assume you know that the dragon didn't accept you invitation to talk so you are dead now. Good job...");
+                alert("What did you think talking to a dragon would do? Maybe you should've brought some coffee and chocolate too. I assume you know that the dragon didn't accept you invitation to talk so you are dead now. Good job...");
                 talk = false;
             }
         break;
     default:
-        console.log("Are you even speaking proper English my good knight? Try again and let's move on!");
+        alert("Are you even speaking proper English my good knight? Try again and let's move on!");
 }
