@@ -1,0 +1,3 @@
+make a "sack" that can only hold so many items for the games.
+Fix when the user chooses run, the next prompt won't say that I slayed the dragon.
+Fix spell error line 67(The road that IS more grassy)
